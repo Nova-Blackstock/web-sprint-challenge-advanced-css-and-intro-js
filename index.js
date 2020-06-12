@@ -229,7 +229,7 @@ console.log(artists[9])
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(array, index) {
-    return `The artist at index ${index} is ${artists[index].name}.`
+    return `The artist at index ${index} is ${array[index].name}.`
   }
 
 console.log(getArtistByIndex(artists, 0))
@@ -240,24 +240,15 @@ console.log(getArtistByIndex(artists, 0))
 /* Task 4: Create a function called get20s() that takes data as an argument and
  returns an array with names of artists who lived in the 20th century (1900-2000) */
 
-function get20s(arr){
-  const twentieth = [];
-  twentieth.push(arr[0].name);
-  twentieth.push(arr[1].name);
-  twentieth.push(arr[2].name);
-  twentieth.push(arr[3].name);
-  twentieth.push(arr[4].name);
-  twentieth.push(arr[5].name);
-  twentieth.push(arr[9].name);
-  twentieth.push(arr[11].name);
-  twentieth.push(arr[12].name);
-  twentieth.push(arr[13].name);
-  twentieth.push(arr[15].name);
-  twentieth.push(arr[17].name);
-  return twentieth
-};
-
-console.log(get20s(artists));
+function get20s2(arr){
+  const twentieth2 = [];
+  for(i=0;i<arr.length;i++){
+    if(arr[i].years.includes('19')){
+      twentieth2.push(arr[i].name);
+    }
+  } return twentieth2
+}
+console.log(get20s2(artists));
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
