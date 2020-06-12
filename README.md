@@ -28,6 +28,28 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 4. What is the purpose of using functions in code?
 5. What is JSON data?
 
+1. How would you describe acessibility on the web to someone new to programming?
+
+        Accessbility means that in the design of your code, you are considering how those with
+        impairments will be able to consume your content. You want to think about screenreaders,
+        people with motor impairments, and many other things.
+
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+        You can write your HTML with proper context to help screen readers.
+        You can describe images using "alt='description'."
+        You can increase the proximity to a link that a cursor will be able to click on it.
+
+3. How would you explain the concept of a variable to someone new to programming?
+
+        A variable is a representation of other information. This is done so that we can reference
+        this information in simple nomenclature. 
+
+4. What is the purpose of using functions in code?
+
+        Functions perform a set of actions that has been pre-coded. Once the function is designed, one
+        must simply invoke it as opposed to manually writing it out every time it is needed.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
